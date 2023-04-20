@@ -1,0 +1,40 @@
+html, body {
+    height: 95%;
+    width: 95%;
+    display: table;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    margin:auto;
+}
+div {
+    height: 95%;
+    width: 95%;
+    border-style: solid;
+    border-radius: 0.5em;
+    background-color: #30363d;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button#GoHome {
+    position: fixed;
+    margin-bottom: auto;
+    margin-left:auto;
+}
+
+

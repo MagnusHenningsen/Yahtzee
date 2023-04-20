@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1117;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+fieldset {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0.5em;
+}
+
+label {
+    text-align: left;
+    margin-right: auto;
+}
+
+
+input {
+
+    width: 95%;
+    height: 25px;
+    border-radius: 0.5em;
+    margin-left:1.5% ;
+}
+input[type="submit"] {
+    width: 98%;
+    height: 35px;
+    margin-top: 20px;
+}
+a {
+    color: ghostwhite;
+}
